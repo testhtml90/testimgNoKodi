@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: "Red Hat Display Black";
+  src: url (./Fonts/RedHatDisplay-Black.otf);
+}
+@font-face {
+  font-family: "XAG Regular";
+  src: url (./Fonts/XAG-Regular.otf);
+}
+body {
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(70deg, #ff0000, #0000ff) fixed;
+  height: 100%;
+
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+h1 {
+  text-align: center;
+  font-size: 12.5vh;
+  font-family: "XAG Regular", "Roboto", sans-serif;
+  color: white;
+}
+button {
+  background: white;
+  border: 0px white;
+  border-radius: 50px;
+  height: 6vh;
+  width: 25vh;
+  font-family: "Red Hat Display Black";
+  font-size: 2.5vh;
+  cursor: pointer;
+}
+button:active {
+  background: rgb(220, 220, 220);
+}
+
+/*
+background: linear-gradient(70deg, #ff0000, #0000ff) no-repeat;
+*/

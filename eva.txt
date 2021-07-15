@@ -1,0 +1,18 @@
+//header =
+//
+//		épaiseur !!!
+//		plus épais
+//
+
+//Bouton =
+//
+//	
+//		plus gros 
+//		ombre moins foncé
+		
+
+menu burger = 	menu
+		audio
+		video
+		contact
+		
